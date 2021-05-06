@@ -4,7 +4,12 @@ class Test extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text("It is"),
+      child: Column(
+        children: [
+          Text("It is the first element"),
+          Text("It is the second element")
+        ],
+      ),
     );
   }
 }
