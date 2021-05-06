@@ -6,8 +6,7 @@ class Test extends StatelessWidget {
     return Center(
       child: Column(
         children: [
-          Text("It is the first element branch b"),
-          Text("It is the second element branch b")
+          Text("Branch b")
         ],
       ),
     );
